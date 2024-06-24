@@ -1,0 +1,44 @@
+{
+  "name": "obsidian-web-clipper",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-textarea-autosize": "^8.4.1"
+  },
+  "scripts": {
+    "dev": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "html-webpack-plugin": "^5.5.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "tailwindcss": "^3.3.2",
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1"
+  }
+}
